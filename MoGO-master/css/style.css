@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --brand-color: #95E1D3;
+    --text-color: #B6B6B6;
+    --button-color: white;
+    --title-color: #333;
+    --link-color: #F38181;
+    --active-color: #f38181;
+    --main-font: "Montserrat", serif;
+    --text-font: "Roboto", serif;
+    --sub-title-font: "Kaushan Script", serif;
+}
+body {
+    font-family: var(--main-style);
+    width: 1920px;
+}
+.header-logo, .header-link {
+    color: var(--brand-color);
+}
+.header-logo:active, .header-link:active {
+    color: var(--link-color);
+}
+.services-desc, .team-post-text, .team-desc {
+    color: var(--text-color);
+}
+.services-subtitle, .services-title {
+    text-align: center;
+}
+.team-subtitle, .team-title, .team-post-text {
+    text-align: center;
+}
+.team-desc {
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-article {
+    width: 331.7798156738281;
+}
+.footer-button {
+    background-color: var(--brand-color);
+    color: var(--button-color);
+}
+.footer-button:active {
+    background-color: var(--link-color);
+}
+.footer-link {
+    color: var(--link-color);
+}
+section div, .header-container, .footer-container {
+    width: 1200px;
+    margin: 0 360px;
+    padding: 0;
+    align-items: center;
+}
+.subtitle, .title{
+    color: var(--title-color);
+    text-align: center;
+}
+/*container*/
+.header-container {
+    margin-top: 17px;
+    margin-bottom: 68px;
+}
+.services-container {
+    margin-top: 68px;
+    margin-bottom: 100px;
+}
+.team-container {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.footer-container {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+/*flex-box*/
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: default;
+    gap: 55px;
+}
+.services-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+.team-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
